@@ -69,9 +69,9 @@ function Carousel() {
   const CarouselItem1 = () => (
     <CarouselItem index={1}>
       <div className="flex flex-col justify-center items-center">
-        <img className="w-[40%]" src={img1} alt="image-1-carousel-1" />
+        <img className="w-[35%]" src={img1} alt="image-1-carousel-1" />
         <div>
-          <h1 className="text-5xl xl:text-6xl font-semibold text-primary mt-10 ">
+          <h1 className="text-5xl xl:text-6xl font-semibold text-primary mt-5 ">
             Crafting Tomorrow's <br />
             Digital Narratives
           </h1>
@@ -89,7 +89,7 @@ function Carousel() {
   const CarouselItem2 = () => (
     <CarouselItem index={2}>
       <div className="flex flex-col justify-center items-center">
-        <img className="w-[40%] my-16" src={img2} alt="image-2-carousel-2" />
+        <img className="w-[35%] my-10" src={img2} alt="image-2-carousel-2" />
         <div>
           <h1 className="text-5xl xl:text-6xl font-semibold text-primary ">
             Blending the Human
